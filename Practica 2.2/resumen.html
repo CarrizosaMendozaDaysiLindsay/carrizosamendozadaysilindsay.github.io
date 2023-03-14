@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- <link rel="stylesheet" href="./css/style.css"> -->
+   
+        <title>Guia rapida</title>
+        <style>
+            table{
+    
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <p> De a cuerdo a la informacion presentada compararemos 3 de los estilo universales</p>
+        <table border="1px"  class="contenedor2">
+            <thead>
+                <tr>
+                    <td colspan="4" > <b>Estilos</b>  </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <b>Estilos</b></td>
+                    <td> <b>Caracteristica</b></td>
+                  
+                </tr>
+                <tr>
+                    <td rowspan="1">Tradicional</td>
+                    <td colspan="1"> Sastrería, las líneas rectas y los 
+                        colores más sobrios, como el negro, el blanco y el gris.  </td>
+                
+                   
+                </tr>
+        
+                <tr>
+                    <td colspan="1">Elegante</td>
+                    <td colspan="1"> Sastrería, diseños 
+                        más contemporáneos.</td>
+    
+                </tr>
+                <tr>
+                    <td rowspan="3">Boho</td>
+                    <td rowspan="3">Son la mezcla de diversas tendencias como hippie, 
+                        bohemia, folk y vintage. </td>
+                    
+                </tr>
+              
+            </tbody>
+        </table>
+      
+
+        <div class="contenedor-rojo">
+        
+            <h1> Estilos de moda</h1>
+             
+            <form action="estilo.php" method="get" >
+                
+                <label for="usu"> Nombre </label>
+                <input type="text" id="usu" name="nombre" size="12" required minlength="8" maxlength="12" placeholder="Ingresa tu nombre"> 
+           
+                 <br> 
+                 <br> 
+                 <label for="tipo">Tipo de estilo</label> 
+                 <select name="tipochile" id="tipo" required>
+                    <option value="opcion 1">Boho</option>
+                    <option value="opcion 2" selected>Elegante</option>
+                    <option value="opcion 3">Tradicional </option>
+                     
+                 </select>
+    
+                 <br> 
+                 <br> 
+                 <label for="cantidadchile">¿Te pudimos guiar para encontarr tu estilo? </label>
+                 <input type="radio" name="opciones" id="opcion1" value="si" required>
+                 <label for="opcion1">Si</label>
+    
+                 <input type="radio" name="opciones" id="opcion2" value="no" required>
+                 <label for="opcion2">No</label>
+    
+                 <br> 
+                 <br> 
+                 <label for="cantidadchile"> ¿Te gustaria conocer sobre estos estilos? </label>
+                 <br> 
+                 <input type="checkbox" name="opciones" id="bufalo" value="bufalo" >
+                 <label for="bufalo"> Minimalista </label>
+    
+                 <input type="checkbox" name="opciones" id="val" value="opcion1" >
+                 <label for="val"> Hipster</label>
+    
+                 <input type="checkbox" name="opciones" id="ta" value="opcion1" >
+                 <label for="ta"> Fashion</label>
+                 
+                 <br> 
+                 <br>
+                 <label for="area1"> Comentarios </label>
+                 <br>
+                 <textarea name="area1" id="area1" cols="30" rows="5" required>
+                  texto area 
+                 </textarea>
+                 
+                 <br>
+                 <input type="submit" value="Enviar" required> 
+                
+    
+                 
+                 
+    
+    
+    
+            </form>
+        </div>
+
+        <a href="./index.html"> regresar a pagina principal</a>
+       
+    
+
+
+ </body>
+</html>
