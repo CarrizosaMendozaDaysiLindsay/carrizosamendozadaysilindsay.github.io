@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <!-- <title>Diseno 4</title> -->
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/1733d33d47.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+             <img src="./img/logo.png" alt="">
+        </div>
+      
+         <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Galeria</a></li>
+              <li><a href="">Precios</a></li>
+              <li><a href="">Contacto</a></li>
+              <li><a href="">Contacto</a></li>
+              <li><a href="">Contacto</a></li>
+            </ul> 
+          </nav>
+
+          <div class="login">
+            <img src="./img/usuario.png" alt="">
+            <li><a href="">Log in</a></li>   
+          </div>
+    </header>
+
+ 
+    <aside>
+      <nav>
+        <ul>
+          <li><a href=""> <img src="./img/cuentas.png" alt=""> CLIENTS  </a></li>
+          <li> <a href=""><img src="./img/cor.png" alt="">MONITORING</a></li>
+          <li><a href=""><img src="./img/map.png" alt="">REPORTING</a></li>
+          <li><a href=""><img src="./img/map.png" alt="">LOCATIONS</a></li>
+          <li> <a href=""><img src="./img/cuentas.png" alt="">LOGS</a></li>
+       
+        </ul> 
+
+        
+      </nav>
+     
+      <div class="ayuda">
+          
+          <a href="">HELP</a>
+  
+        </div> 
+      
+    </aside>   
+    
+    
+
+       
+
+   <main>  
+
+    <nav class="nav2">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Galeria</a></li>
+        <li><a href="">Precios</a></li>
+        <li><a href="">Contacto</a></li>
+        <li><a href="">Contacto</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul> 
+    </nav>
+
+ 
+     <section class="seccion1">
+
+      <div class="formulario">
+        <!-- formulario  -->
+
+       <form action="pagina.php" method="get">
+
+        <div class="etiquetas">
+          <label for="first"> First name </label>
+           <label for="last"> Last name </label>
+          <label for="start"> Start date </label>
+          <label for="end"> End date </label> 
+          
+        </div>
+
+        <div class="respuestas">
+          <input type="text" id="first" name="nombre" size="12" required
+          minlength="8" maxlength="12" placeholder="Nombre"> 
+
+          <input type="text" id="last" name="nombre" size="12" required
+          minlength="8" maxlength="12" placeholder="Last name"> 
+
+          <input type="text" id="start" name="nombre" size="12" required
+          minlength="8" maxlength="12" placeholder="Start date" >  
+          
+
+          <input type="text" id="end" name="nombre" size="12" required
+          minlength="8" maxlength="12" placeholder="End date"> 
+         </div>
+
+         <div class="etiquetas2">
+          <label for="range"> Date range  </label>
+          <label for="source">   Source  </label>
+          
+        </div>
+        
+        <div class="respuestas2">
+          <div  class="opciones">
+          <nav>
+            <ul>
+              <li><a href="">1 day</a></li>
+              <li><a href="">7 days</a></li>
+              <li><a href="" selected>20 days</a></li>
+              <li><a href="">90 days</a></li>
+              <li><a href="">All</a></li>
+
+        
+            </div>
+            
+            <div class="selector ">
+            <select name="tipochile" id="source" required>
+               <option value="opcion 1" selected>Select source</option>
+               <option value="opcion 2" >Select source</option>
+              <option value="opcion 3">Select source </option> 
+              <option value="opcion 4" selected>Select source</option>
+               <option value="opcion 5" >Select source</option>
+              
+              
+             </div>
+            </select>
+           
+              
+            </ul> 
+          </nav>
+          
+
+          <div class="tres">
+           <input type="submit" value="Enviar" required> 
+          <li><a href="">x</a></li>
+          </div>
+
+         </div>
+
+
+      </form> 
+
+      </div>
+
+      </section> 
+   
+    <section class="seccion2">
+      <div class="tabla">
+      
+        <table  >
+        
+        <tbody>
+
+          <tr class="arriba">
+            <td> <b>Date/Time if alert</b></td>   
+                <td> <b>Cliente name</b></td>
+                <td> <b>Source</b></td>
+                <td> <b>Valve</b></td>
+                <td> <b>Alert</b></td>
+                <td> <b>Alert Type</b></td> 
+          
+        </tr >
+           
+            <tr>
+                <td rowspan="1">08.01.2016  01:05 PM</td>
+                <td colspan="1"> Doe, john  </td>
+                <td rowspan="1">Clinical pulse rabe</td>
+                <td colspan="1"> N/A </td>
+                <td rowspan="1" class="naranja">Over 2 days</td>
+                <td colspan="1"> Time-based  </td>
+            
+               
+            </tr>
+    
+            <tr>
+              <td rowspan="1">08.01.2016  01:05 PM</td>
+              <td colspan="1"> Doe, john  </td>
+              <td rowspan="1">Clinical pulse rabe</td>
+              <td colspan="1"> N/A </td>
+              <td rowspan="1" class="naranja">Over 2 days</td>
+              <td colspan="1"> Time-based  </td>
+
+            </tr>
+            <tr>
+              <td rowspan="1">08.01.2016  01:05 PM</td>
+              <td colspan="1"> Doe, john  </td>
+              <td rowspan="1">Clinical pulse rabe</td>
+              <td colspan="1"> N/A </td>
+              <td rowspan="1" class="naranja">Over 2 days</td>
+              <td colspan="1"> Time-based  </td>
+                
+            </tr>   
+            <tr>
+              <td rowspan="1">08.01.2016  01:05 PM</td>
+              <td colspan="1"> Doe, john  </td>
+              <td rowspan="1">Clinical pulse rabe</td>
+              <td colspan="1"> N/A </td>
+              <td rowspan="1" class="naranja">Over 2 days</td>
+              <td colspan="1"> Time-based  </td>
+                
+            </tr>   
+            <tr>
+              <td rowspan="1">08.01.2016  01:05 PM</td>
+              <td colspan="1"> Doe, john  </td>
+              <td rowspan="1">Clinical pulse rabe</td>
+              <td colspan="1"> N/A </td>
+              <td rowspan="1" class="naranja">Over 2 days</td>
+              <td colspan="1"> Time-based  </td>
+                
+            </tr>   
+            <tr>
+              <td rowspan="1">08.01.2016  01:05 PM</td>
+              <td colspan="1"> Doe, john  </td>
+              <td rowspan="1">Clinical pulse rabe</td>
+              <td colspan="1"> N/A </td>
+              <td rowspan="1" class="naranja">Over 2 days</td>
+              <td colspan="1"> Time-based  </td>
+                
+            </tr>   
+          
+         </tbody> 
+     </table> 
+    </div>
+
+     </section> 
+
+     <section class="seccion3">
+    <div class="pag">
+      <li class="bot"><a href=""> ></a></li>
+      <li><a href="">Pag 1 of 4</a></li>
+      <li class="bot"><a href=""> ></a></li>
+    </div>
+    </section> 
+      
+    </main>   
+       
+   
+    
+      
+</body>
+</html>
