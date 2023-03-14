@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+  }
+
+  @font-face {
+    font-family:'titulo' ;
+    src: url('../font/Sahitya-Bold.ttf');
+  }
+
+  h1{
+    color: white ;
+    font-size: 20px;
+    font-family: titulo ,serif;
+  }
+
+ .parte2{
+    width: 100%;
+
+ }
+.parte2 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover; 
+    
+  }
+
+img[ src="./lo.png"]{
+    width: 80px;
+    height: 80px;
+    } 
+
+.parte1{
+
+    position: fixed;
+    height: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+header li{
+    display: inline-flex;
+}
+
+nav li{
+    display: inline-flex;
+  }
+
+  nav{
+    display: flex;
+    justify-content: center; 
+     width: 50%; 
+    position: fixed;
+    right: 10px; 
+    z-index: 1;
+    
+  }
+
+  nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    opacity: .7;
+    border-radius: 5px;   
+  }
+
+
+
+.descarga{
+    position: absolute;
+    right:610px ;
+    bottom: 250px;
+    
+
+}
+
+
+.parte3{
+    position: absolute;
+
+    color: white;
+   bottom: 190px;
+    left: 550px;
+    z-index: 1;
+}
+
+
+.formulario{
+    
+    position: absolute;
+    right:250px ;
+     top: 120px; 
+    
+    border: 2px solid #000;
+    background-color: rgb(132, 174, 142);
+    
+    
+
+}
+
+
+
+
+
